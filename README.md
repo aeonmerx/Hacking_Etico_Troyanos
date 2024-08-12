@@ -13,8 +13,8 @@
 
 Este documento proporciona una guía detallada sobre cómo usar Metasploit y FatRat para generar un payload, configurarlo y explotarlo en una máquina Windows desde una máquina Kali Linux en la nube.
 
-- **IP Pública de la Máquina Kali Linux**: 20.51.215.235
-- **Puerto Utilizado**: 6666
+- **IP Pública**: TU IP DE ATAQUE ejemplo 0.0.0.0
+- **Puerto Utilizado**: Elige el puerto que quieras ejemplo 555
 
 ## Configuración del Entorno
 
