@@ -76,7 +76,7 @@ Este documento proporciona una guía detallada sobre cómo usar Metasploit y Fat
 ## Solución de Problemas
 
 - **Problemas de Conexión**:
-   - Verifica que el firewall en la máquina Windows y en la máquina Kali no esté bloqueando el puerto 6666.
+   - Verifica que el firewall en la máquina Windows y en la máquina Kali no esté bloqueando el puerto que estás usando.
    - Asegúrate de que la máquina Windows pueda comunicarse con la IP pública de Kali.
 
 - **Errores en la Ejecución**:
