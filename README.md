@@ -90,3 +90,6 @@ Este documento proporciona una guía detallada sobre cómo usar Metasploit y Fat
 
 - **Actualizaciones**:
    - Mantén tanto Metasploit como FatRat actualizados para asegurar la compatibilidad y las últimas características.
+Repositorios oficiales de FatRat:
+https://github.com/screetsec/TheFatRat
+https://github.com/Screetsec/TheFatRat/releases
